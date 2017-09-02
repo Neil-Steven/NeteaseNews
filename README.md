@@ -9,6 +9,7 @@
 先实现了一些基本功能，顶部的滚动视图没有写点击进入的详情界面，新闻列表里的一些大图新闻cell也没有写（暂时先报新闻地址获取失败的错，其实是还没实现^_^）不过顶部的滚动视图是自己写的，逻辑不是很复杂，实现了定时滚动和循环滚动，可能还有bug，如果发现希望能跟我交流一下~
 
 
+
 **使用的第三方框架：**
 
 * AFNetworking
@@ -17,7 +18,9 @@
 * SVProgressHUD
 
 
+
 **存在的问题：**
+
 打开新闻详情界面后会在控制台输出一些警告信息：
 <img src="https://github.com/Neil-Steven/NeteaseNews/blob/master/Screenshots/Screenshot_Warning.png" width="802" height="329" />
 
