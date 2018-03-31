@@ -61,7 +61,7 @@ class HeaderView: UIView, UIScrollViewDelegate {
     }
     
     
-    func changeOffset() {
+    @objc func changeOffset() {
         let currentPage = scrollView.contentOffset.x / frame.size.width
         let rect = CGRect(x: (currentPage+1)*frame.size.width, y: 0, width: frame.size.width, height: frame.size.height)
         scrollView.scrollRectToVisible(rect, animated: true)
